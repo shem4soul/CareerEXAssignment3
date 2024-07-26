@@ -1,0 +1,85 @@
+section{
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.div{
+    border: 2px solid red;
+    width: 200px;
+    height: 400px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.classA{
+     border: 2px solid red;
+     background-image: url("./NetFlixlogo.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     padding-left: 100px;
+     
+    }
+     
+.classB{
+    border: 2px solid blue;
+    background-image: url("./NetFlixlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    
+}
+
+.div2{
+    border: 2px solid blue;
+    height: 400px;
+    width: 500px;
+    background-image: url("./NetFlixlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px;
+
+}
+
+.div2 button{
+    background-color: coral;
+    border: none;
+    height: 40px;
+    width: 500px;
+    color: white;
+    margin-top: 20px;
+}
+
+nav{
+    border: 2px solid green;
+    margin-bottom:  70px;
+    display: flex;
+    padding: 5px;
+} 
+
+nav.logo {  
+    width: 50px;
+    height: 50px;
+}
+nav.logo img{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around; 
+    width: 50%;
+    
+    
+    
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
